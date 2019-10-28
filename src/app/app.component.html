@@ -1,1 +1,10 @@
-
+<div>
+  <app-auth-form
+    (submitted)="createUser($event)">
+<h1>Create account</h1>
+  </app-auth-form>
+  <app-auth-form
+    (submitted)="loginUser($event)">
+<h3>Login</h3>
+  </app-auth-form>
+</div>

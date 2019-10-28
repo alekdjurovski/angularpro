@@ -4,18 +4,7 @@ import { AuthForm } from './auth-form/auth-form.interface';
 
 @Component({
   selector: 'app-root',
-  template: `
-  <div>
-    <app-auth-form
-      (submitted)="createUser($event)">
-
-    </app-auth-form>
-    <app-auth-form
-      (submitted)="loginUser($event)">
-
-    </app-auth-form>
-  </div>
-`,
+  templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
