@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AuthFormModule } from './auth-form/auth-form.module';
+import { StockInvertoryModule } from './stock-inventory/stock-invertory.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import { AuthFormModule } from './auth-form/auth-form.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AuthFormModule
+    StockInvertoryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
